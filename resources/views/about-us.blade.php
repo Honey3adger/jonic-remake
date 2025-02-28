@@ -6,10 +6,9 @@
 @section('class', 'about_us')
 
 @section('content')
-
 <main class="site-main">
     <!-- START OF INNER BANNER -->
-    <section class="inner-banner back-img" style="background-image: url('assets/images/inner_banner_image.jpg');">
+    <section class="inner-banner back-img" style="background-image: url('assets/images/products/image28.jpg');">
         <div class="banner-stripes">
             <span></span>
             <span></span>
@@ -35,7 +34,7 @@
                                     <a href="index-2.html" title="Home">Home</a>
                                 </li>
                                 <li>
-                                    <span>About Us</span>
+                                    <span>What We Do</span>
                                 </li>
                             </ul>
                         </div>
@@ -52,13 +51,13 @@
                 <div class="col-lg-6">
                     <div class="about-images wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="about-top-image back-img"
-                            style="background-image: url('assets/images/about-us-1.jpg');">
+                            style="background-image: url('assets/images/products/image7.jpg');">
                             <span class="logo-icon">
-                                <img src="assets/images/logo-icon.svg" width="48" height="48" alt="Logo Icon">
+                                <img src="assets/images/jonic-logo.svg" width="48" height="48" alt="Logo Icon">
                             </span>
                         </div>
                         <div class="about-bottom-image back-img"
-                            style="background-image: url('assets/images/about-us-2.jpg');"></div>
+                            style="background-image: url('assets/images/products/image17.jpg');"></div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -69,7 +68,7 @@
                                     alt="Setting Icon">
                                 ABOUT US
                             </span>
-                            <h2 class="h2-title">We Renovate New Innovation</h2>
+                            <h2 class="h2-title">We Produce</h2>
                             <p>Donec hendrerit felis id neque gravida euismod. Fusce non ex justo. Praesent
                                 faucibus, ipsum ut viverra blandit, urna nisl congue odio, quis bibendum ante arcu
                                 at augue.</p>
@@ -81,7 +80,7 @@
                                         alt="Expert Engineer Logo">
                                 </span>
                                 <div class="engineer-list-content">
-                                    <h4 class="h4-title">Expert Engineer</h4>
+                                    <h4 class="h4-title">Expert Producer</h4>
                                     <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
                                         id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
                                 </div>
@@ -92,7 +91,7 @@
                                         alt="Certified Engineer Logo">
                                 </span>
                                 <div class="engineer-list-content">
-                                    <h4 class="h4-title">Certified Engineer</h4>
+                                    <h4 class="h4-title">Certified Producer</h4>
                                     <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
                                         id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
                                 </div>
@@ -107,12 +106,12 @@
     <!-- START OF NEW INNOVATIONS -->
     <div class="marquee-text-wp">
         <div class="marquee-text wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-            <span class="h1-title">Grow Your Industrials Solution With a New Innovations</span>
-            <span class="h1-title">Grow Your Industrials Solution With a New Innovations</span>
+            <span class="h1-title">Jonic Groups Jonic Groups Jonic Groups Jonic Groups</span>
+            <span class="h1-title">Groups Jonic Groups Jonic Groups Jonic Groups Jonic</span>
         </div>
         <div class="marquee-text wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-            <span class="h1-title">Grow Your Industrials Solution With a New Innovations</span>
-            <span class="h1-title">Grow Your Industrials Solution With a New Innovations</span>
+            <span class="h1-title">Groups Jonic Groups Jonic Groups Jonic Groups Jonic</span>
+            <span class="h1-title">Jonic Groups Jonic Groups Jonic Groups Jonic Groups</span>
         </div>
     </div>
     <!-- START OF NEW INNOVATIONS -->
@@ -169,8 +168,8 @@
                             </span>
                             <h3 class="h3-title">Join The Future Of Industry Now</h3>
                         </div>
-                        <img src="assets/images/join-our-team.png" width="271" height="271"
-                            alt="Join our team image">
+                        <!-- <img src="assets/images/join-our-team.png" width="271" height="271"
+                            alt="Join our team image"> -->
                         <a href="contact-us.html" class="sec-btn" title="Get a Quote">Get a Quote</a>
                         <div class="banner-shape">
                             <span class="stripe"></span>
@@ -218,15 +217,15 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="why-choose-image why-choose-1 back-img"
-                                    style="background-image: url('assets/images/choose-us-1.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image18.jpg');"></div>
                             </div>
                             <div class="col-4 align-self-center">
                                 <div class="why-choose-image why-choose-2 back-img"
-                                    style="background-image: url('assets/images/choose-us-2.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image29.jpg');"></div>
                             </div>
                             <div class="col-12">
                                 <div class="why-choose-image why-choose-3 back-img"
-                                    style="background-image: url('assets/images/choose-us-3.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image30.jpg');"></div>
                             </div>
                         </div>
                     </div>
@@ -236,7 +235,7 @@
     </section>
     <!-- END OF INNOVATIONS -->
     <!-- START OF TESTIMONIALS -->
-    <section class="testimonials dark-bg home2-testimonials">
+    <!-- <section class="testimonials dark-bg home2-testimonials">
         <img src="assets/images/globe.svg" class="bg-glob" width="687" height="744" alt="Globe Icon">
         <div class="container">
             <div class="row">
@@ -346,7 +345,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF TESTIMONIALS -->
     <!-- START OF WE ARE GLOBAL -->
     <section class="we-are-global">
@@ -356,16 +355,16 @@
                     <div class="world-map-wp wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="world-map">
                             <img src="assets/images/world-map.png" width="899" height="537" alt="World map">
-                            <span class="alaska"></span>
+                            <!-- <span class="alaska"></span>
                             <span class="usa"></span>
                             <span class="brazil"></span>
-                            <span class="greenland"></span>
+                            <span class="greenland"></span> -->
                             <span class="africa"></span>
-                            <span class="russia"></span>
+                            <!-- <span class="russia"></span>
                             <span class="india"></span>
                             <span class="china"></span>
                             <span class="russia-2"></span>
-                            <span class="australia"></span>
+                            <span class="australia"></span> -->
                         </div>
                     </div>
                 </div>
@@ -375,9 +374,9 @@
                             <span class="sub-title">
                                 <img src="assets/images/setting-icon.svg" width="18" height="18"
                                     alt="Setting Icon">
-                                WE ARE GLOBLE
+                                WE ARE NATIONWIDE
                             </span>
-                            <h2 class="h2-title">We Have 500+ Clients Globally</h2>
+                            <h2 class="h2-title">We Have 5000+ Customers Nationwide</h2>
                         </div>
                         <p>Vivamus sagittis, mi id viverra dapibus, ipsum diam egestas mi, et fringilla erat est
                             dapibus nibh. Integer pulvinar, sapien a malesuada rutrum, diam lorem consequat sapien,
@@ -391,7 +390,7 @@
     </section>
     <!-- END OF WE ARE GLOBAL -->
     <!-- START OF WE ARE GLOBAL -->
-    <div class="client-list secondary-bg wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
+    <!-- <div class="client-list secondary-bg wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
         <div class="container">
             <div class="client-list-wp">
                 <img src="assets/images/boltshift.svg" width="130" height="34" alt="Boltshift Icon">
@@ -402,7 +401,7 @@
                 <img src="assets/images/acme-corp.svg" width="130" height="29" alt="Acme corp Icon">
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- END OF WE ARE GLOBAL -->
     <!-- START OF BLOG SECTION -->
     <section class="blog-section">
@@ -410,28 +409,27 @@
             <div class="sec-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                 <span class="sub-title">
                     <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
-                    OUR BLOG
+                    OUR NEWS
                 </span>
-                <h2 class="h2-title m-0">Latest Blog & News</h2>
+                <h2 class="h2-title m-0">Latest News</h2>
             </div>
             <div class="blog-box-wp">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/new-machine-image.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image12.jpg');"
                                     title="New machine will efficient big factory"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html" title="New machine will efficient big factory">New
-                                        machine will efficient big factory</a>
+                                    <a href="#" title="New machine will efficient big factory">news</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="New machine will efficient big factory"></a>
                             </div>
                         </div>
@@ -439,20 +437,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/how-to-build.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image23.jpg');"
                                     title="How to build for best new machinery industry"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html"
-                                        title="How to build for best new machinery industry">How to build for best
-                                        new machinery industry</a>
+                                    <a href="#"
+                                        title="How to build for best new machinery industry">news post</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="How to build for best new machinery industry"></a>
                             </div>
                         </div>
@@ -460,20 +457,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/we-are-best.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image15.jpg');"
                                     title="We are best any industrial & business solution"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html"
-                                        title="We are best any industrial & business solution">We are best any
-                                        industrial & business solution</a>
+                                    <a href="#"
+                                        title="We are best any industrial & business solution">news post</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="We are best any industrial & business solution"></a>
                             </div>
                         </div>

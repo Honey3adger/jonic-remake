@@ -4,10 +4,12 @@
 
 @section('class', 'portfolio_details_page')
 
+@section('class-1', 'active-menu')
+
 @section('content')
 <main class="site-main">
     <!-- START OF MAIN BANNER -->
-    <section class="inner-banner back-img" style="background-image: url('assets/images/inner_banner_image.jpg');">
+    <section class="inner-banner back-img" style="background-image: url('assets/images/products/image3.jpg');">
         <div class="banner-stripes">
             <span></span>
             <span></span>
@@ -24,19 +26,16 @@
                 <div class="col-lg-12">
                     <div class="inner-banner-content-wp white-text text-center">
                         <div class="inner-banner-content wow fadeInUp" data-wow-duration=".8s">
-                            <h2 class="h1-title">Portfolio Detail</h2>
+                            <h2 class="h1-title">Our investors</h2>
                         </div>
                         <div class="inner-banner-breadcrumb wow fadeInUp" data-wow-duration=".8s"
                             data-wow-delay=".2s">
                             <ul>
                                 <li>
-                                    <a href="index-2.html" title="Home">Home</a>
+                                <a href="{{route('index')}}" title="Home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="portfolio.html" title="Portfolio">Portfolio</a>
-                                </li>
-                                <li>
-                                    <span>Portfolio Detail</span>
+                                    <span>Investors</span>
                                 </li>
                             </ul>
                         </div>
@@ -52,7 +51,7 @@
                 <div class="col-lg-12">
                     <div class="portfolio-content">
                         <div class="portfolio-head">
-                            <h1 class="h2-title m-0">Electronic Material</h1>
+                            <h1 class="h2-title m-0">Become an investor</h1>
                             <div class="portfolio-sharing">
                                 <span>Share:</span>
                                 <ul>
@@ -136,7 +135,7 @@
                             </ul>
                         </div>
                         <div class="portfolio-feature-image back-img"
-                            style="background-image: url('assets/images/portfolio-description-feature-image.jpg');">
+                            style="background-image: url('assets/images/products/image14.jpg');">
                         </div>
                         <p>Phasellus maximus libero nulla, vitae varius nisi mollis vitae. Ut sit amet hendrerit
                             dui, vitae consequat sapien. In eget risus ac nulla porta porta ornare ut dolor.
@@ -180,12 +179,12 @@
                             <a href="assets/images/feature-sub-image-1.jpg" class="popup-image"
                                 title="Portfolio Sub Image">
                                 <div class="portfolio-sub-image back-img"
-                                    style="background-image: url('assets/images/feature-sub-image-1.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image16.jpg');"></div>
                             </a>
                             <a href="assets/images/feature-sub-image-2.jpg" class="popup-image"
                                 title="Portfolio Sub Image">
                                 <div class="portfolio-sub-image back-img"
-                                    style="background-image: url('assets/images/feature-sub-image-2.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image12.jpg');"></div>
                             </a>
                         </div>
                         <h4 class="h4-title">We Make The Best Quality Product</h4>
@@ -221,7 +220,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="portfolio-nav">
+                        <!-- <div class="portfolio-nav">
                             <div class="portfolio-nav-link portfolio-nav-left">
                                 <a href="portfolio-details.html" class="portfolio-nav-preview"
                                     title="Previous Portfolio">
@@ -244,7 +243,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

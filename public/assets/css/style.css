@@ -158,7 +158,8 @@ h6, .h6-title {
 
 :root {
     --primary-color: #1F212D;
-    --secondary-color: #FF5E15;
+    --secondary-color: #029140;
+    --sec-color:#D9251C;
     --golden-color: #d19f29;
     --border-color: #C4C4C4;
     --light-bg: #F2F3F5;
@@ -773,6 +774,7 @@ body.compensate-for-scrollbar {
     display: inline-flex;
     align-items: center;
     gap: 9px;
+    /* color: var(--black-color); */
 }
 
 .header-social li a span {
@@ -834,7 +836,7 @@ body.compensate-for-scrollbar {
 
 .main-navigation ul li {
     position: relative;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .main-navigation ul li a {
@@ -1103,7 +1105,7 @@ body.compensate-for-scrollbar {
 /*==========Banner CSS Start==========*/
 
 .main-banner {
-    background-color: var(--primary-color);
+    background-color: var(--light-color);
     position: relative;
     overflow: hidden;
 }
@@ -1243,7 +1245,7 @@ body.compensate-for-scrollbar {
 }
 
 .banner-content .text-lg {
-    color: rgba(255 255 255 /0.8);
+    color: rgba(92, 86, 86, 0.8);
     max-width: 526px;
     margin-bottom: 28px;
 }
@@ -2752,7 +2754,7 @@ body.compensate-for-scrollbar {
 }
 
 .site-header.sticky-header {
-    background-color: var(--primary-color);
+    background-color: var(--border-color);
 }
 
 .best-quality .row {
@@ -5382,6 +5384,17 @@ blockquote .quote-icon {
         --box-space: 100px;
     }
 
+    .banner-content .text-lg {
+        font-size: 16px;
+        color: var(--white-color) !important;
+    }
+
+    .banner-content .h1-title {
+        font-size: 44px;
+        color: var(--white-color);
+
+    }
+
     .h2-title {
         margin-bottom: 20px;
     }
@@ -5449,13 +5462,14 @@ blockquote .quote-icon {
         height: 100vh;
         max-height: 100vh;
         overflow: auto;
-        background: var(--primary-color);
+        background: var(--border-color);
         text-align: center;
         padding: 100px 0 30px;
         box-shadow: -30px 0 30px rgba(0, 0, 0, 0.1);
         transition: 0.5s;
         opacity: 0;
         z-index: 100;
+        font-size: 20px;
     }
 
     .main-navigation.toggle-menu .header-mobile-menu {
@@ -6573,7 +6587,7 @@ blockquote .quote-icon {
     }
 
     .site-branding img {
-        width: 140px;
+        width: 32px;
     }
 
     .about-top-image .logo-icon {

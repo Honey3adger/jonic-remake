@@ -30,7 +30,7 @@
                             data-wow-delay=".2s">
                             <ul>
                                 <li>
-                                    <a href="index-2.html" title="Home">Home</a>
+                                    <a href="{{route('index')}}" title="Home">Home</a>
                                 </li>
                                 <li>
                                     <span>Portfolio</span>

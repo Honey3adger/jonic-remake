@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Carreer - Jonic')
+@section('title', 'Product - Jonic')
 
 @section('class', 'pservices_listing_page')
 
@@ -8,7 +8,7 @@
 
 <main class="site-main">
     <!-- START OF BANNER -->
-    <section class="inner-banner back-img" style="background-image: url('assets/images/inner_banner_image.jpg');">
+    <section class="inner-banner back-img" style="background-image: url('assets/images/products/image30.jpg');">
         <div class="banner-stripes">
             <span></span>
             <span></span>
@@ -25,16 +25,16 @@
                 <div class="col-lg-12">
                     <div class="inner-banner-content-wp white-text text-center">
                         <div class="inner-banner-content wow fadeInUp" data-wow-duration=".8s">
-                            <h1 class="h1-title">Our Services</h1>
+                            <h1 class="h1-title">Our Products</h1>
                         </div>
                         <div class="inner-banner-breadcrumb wow fadeInUp" data-wow-duration=".8s"
                             data-wow-delay=".2s">
                             <ul>
                                 <li>
-                                    <a href="index-2.html" title="Home">Home</a>
+                                <a href="{{route('index')}}" title="Home">Home</a>
                                 </li>
                                 <li>
-                                    <span>Services</span>
+                                    <span>products</span>
                                 </li>
                             </ul>
                         </div>
@@ -52,18 +52,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-1.jpg');"></div>
+                                style="background-image: url('assets/images/products/image1.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/all-maintenance-icon.svg" width="38" height="38"
+                            <img src="assets/images/jonic-logo.svg" width="38" height="38"
                                 alt="All Maintenance Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="All Maintenance">All Maintenance</a>
+                                <a href="#" title="All Maintenance">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to All Maintenance"></a>
                         </div>
                     </div>
@@ -72,18 +72,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-2.jpg');"></div>
+                                style="background-image: url('assets/images/products/image10.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/general-contract-icon.svg" width="33" height="37"
+                            <img src="assets/images/jonic-logo.svg" width="33" height="37"
                                 alt="General Contract Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="General Contract">General Contract</a>
+                                <a href="#" title="General Contract">our product</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to General Contract"></a>
                         </div>
                     </div>
@@ -92,18 +92,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-3.jpg');"></div>
+                                style="background-image: url('assets/images/products/image20.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/automobiles-icon.svg" width="35" height="35"
+                            <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                 alt="Automobiles Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="Automobiles">Automobiles</a>
+                                <a href="#" title="Automobiles">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg" title="Go to Automobiles"></a>
+                            <a href="#" class="sec-btn icon-lg" title="Go to Automobiles"></a>
                         </div>
                     </div>
                 </div>
@@ -111,18 +111,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-4.jpg');"></div>
+                                style="background-image: url('assets/images/products/image30.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/mechanical-parts-icon.svg" width="35" height="35"
+                            <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                 alt="Mechanical Parts Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="Mechanical Parts">Mechanical Parts</a>
+                                <a href="#" title="Mechanical Parts">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to Mechanical Parts"></a>
                         </div>
                     </div>
@@ -131,18 +131,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-5.jpg');"></div>
+                                style="background-image: url('assets/images/products/image19.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/petroleum-gas-icon.svg" width="34" height="34"
+                            <img src="assets/images/jonic-logo.svg" width="34" height="34"
                                 alt="Petroleum & Gas Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="Petroleum & Gas">Petroleum & Gas</a>
+                                <a href="#" title="Petroleum & Gas">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to Petroleum & Gas"></a>
                         </div>
                     </div>
@@ -151,18 +151,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-6.jpg');"></div>
+                                style="background-image: url('assets/images/products/image29.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/electric-engineer-icon.svg" width="33" height="33"
+                            <img src="assets/images/jonic-logo.svg" width="33" height="33"
                                 alt="Electric Engineer Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="Electric Engineer">Electric Engineer</a>
+                                <a href="#" title="Electric Engineer">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to Electric Engineer"></a>
                         </div>
                     </div>
@@ -171,18 +171,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-7.jpg');"></div>
+                                style="background-image: url('assets/images/products/image35.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/smart-technology.svg" width="26" height="39"
+                            <img src="assets/images/jonic-logo.svg" width="26" height="39"
                                 alt="smart technology Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="Smart Technology">Smart Technology</a>
+                                <a href="#" title="Smart Technology">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg"
+                            <a href="#" class="sec-btn icon-lg"
                                 title="Go to Smart Technology"></a>
                         </div>
                     </div>
@@ -191,18 +191,18 @@
                     <div class="services-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="services-image">
                             <div class="back-img"
-                                style="background-image: url('assets/images/service-list-card-8.jpg');"></div>
+                                style="background-image: url('assets/images/products/image21.jpg');"></div>
                         </div>
                         <div class="services-box-icon">
-                            <img src="assets/images/support-24x7-icon.svg" width="32" height="32"
+                            <img src="assets/images/jonic-logo.svg" width="32" height="32"
                                 alt="Support 24x7 Icon">
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="service-details.html" title="24x7 Support">24x7 Support</a>
+                                <a href="#" title="24x7 Support">our products</a>
                             </h4>
                             <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="service-details.html" class="sec-btn icon-lg" title="Go to 24x7 Support"></a>
+                            <a href="#" class="sec-btn icon-lg" title="Go to 24x7 Support"></a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
     </section>
     <!-- END OF SERVICES LISTING -->
     <!-- START OF OUR WORK SECTION -->
-    <section class="our-work">
+     <section class="our-work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -220,12 +220,12 @@
                             <span class="sub-title">
                                 <img src="assets/images/setting-icon.svg" width="18" height="18"
                                     alt="Setting Icon">
-                                PORTFOLIO
+                                Products
                             </span>
-                            <h2 class="h2-title m-0">Explore Our Work</h2>
+                            <h2 class="h2-title m-0">Explore Our Finest Products</h2>
                         </div>
                         <div class="more-work">
-                            <a href="portfolio.html" class="sec-btn wow fadeInUp" data-wow-duration=".8s"
+                            <a href="#" class="sec-btn wow fadeInUp" data-wow-duration=".8s"
                                 data-wow-delay=".2s" title="Discover More">Discover More</a>
                         </div>
                         <div class="our-work-slider-wp wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
@@ -234,111 +234,111 @@
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-1.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image7.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-2.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image17.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-3.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image8.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product catergory</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-1-min.jpg');">
+                                                style="background-image: url('assets/images/products/image18.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">products category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-2-min.jpg');">
+                                                style="background-image: url('assets/images/products/image9.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-3-min.jpg');">
+                                                style="background-image: url('assets/images/products/image29.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Go to Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>

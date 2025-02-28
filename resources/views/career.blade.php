@@ -8,7 +8,7 @@
 
 <main class="site-main">
     <!-- START OF MAIN BANNER -->
-    <section class="inner-banner back-img" style="background-image: url('assets/images/inner_banner_image.jpg');">
+    <section class="inner-banner back-img" style="background-image: url('assets/images/products/image3.jpg');">
         <div class="banner-stripes">
             <span></span>
             <span></span>
@@ -25,16 +25,16 @@
                 <div class="col-lg-12">
                     <div class="inner-banner-content-wp white-text text-center">
                         <div class="inner-banner-content wow fadeInUp" data-wow-duration=".8s">
-                            <h1 class="h1-title">Our Team</h1>
+                            <h1 class="h1-title">Start a Career with us</h1>
                         </div>
                         <div class="inner-banner-breadcrumb wow fadeInUp" data-wow-duration=".8s"
                             data-wow-delay=".2s">
                             <ul>
                                 <li>
-                                    <a href="index-2.html" title="Home">Home</a>
+                                    <a href="{{route('index')}}" title="Home">Home</a>
                                 </li>
                                 <li>
-                                    <span>Team</span>
+                                    <span>Career</span>
                                 </li>
                             </ul>
                         </div>
@@ -55,13 +55,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/steven-hames.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image15.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="Steven Hames">Steven Hames</a>
+                                                <a href="#" title="Steven Hames">Manager</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
@@ -93,13 +93,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/david-jones.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image12.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="David Jones">David Jones</a>
+                                                <a href="#" title="David Jones">producer</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
@@ -131,13 +131,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/john-taylor.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image26.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="John Taylor">John Taylor</a>
+                                                <a href="#" title="John Taylor">suppervisor</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
@@ -169,13 +169,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/william-white.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image23.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="William White">William White</a>
+                                                <a href="#" title="William White">marketer</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
@@ -207,13 +207,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/henry-taylor.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image35.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="Henry Taylor">Henry Taylor</a>
+                                                <a href="#" title="Henry Taylor">drivers</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
@@ -245,13 +245,13 @@
                                 <div class="team-member-box wow fadeInUp" data-wow-duration=".8s"
                                     data-wow-delay=".2s">
                                     <div class="back-img"
-                                        style="background-image: url('assets/images/alfie-davies.jpg');"></div>
+                                        style="background-image: url('assets/images/products/image25.jpg');"></div>
                                     <div class="team-member-content">
                                         <div class="team-member-name">
                                             <h4 class="h4-title">
-                                                <a href="team-detail.html" title="Alfie Davies">Alfie Davies</a>
+                                                <a href="#" title="Alfie Davies">regional manager</a>
                                             </h4>
-                                            <span>Sr. Engineer</span>
+                                            <span>Sr. Producer</span>
                                         </div>
                                         <div class="member-social">
                                             <span class="share-btn"></span>
