@@ -28,14 +28,13 @@
                                 <div class="banner-content black-text">
                                     <h1 class="h1-title">
                                         <span>
-                                            Jonic
+                                            Welcome to Jonic Group
                                             <img src="assets/images/title-line.svg" width="342" height="13"
                                                 alt="Title line">
                                         </span>
-                                        groups
+
                                     </h1>
-                                    <p class="text-lg banner-p">Maecenas ullamcorper felis at lacus feugiat, vel viverra nisl
-                                        molestie phasellus iaculis nulla est.</p>
+                                    <p class="text-lg banner-p">Your trusted source for premium food and household products.</p>
                                     <div class="banner-btn">
                                         <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover
                                             More</a>
@@ -61,14 +60,13 @@
                                 <div class="banner-content black-text">
                                     <h1 class="h1-title">
                                         <span>
-                                            Jonic
+                                            Welcome to Jonic Group
                                             <img src="assets/images/title-line.svg" width="342" height="13"
                                                 alt="Title line">
                                         </span>
-                                        groups
+
                                     </h1>
-                                    <p class="text-lg">Maecenas ullamcorper felis at lacus feugiat, vel viverra nisl
-                                        molestie phasellus iaculis nulla est.</p>
+                                    <p class="text-lg">We specialize in high-quality vegetable oils, canned tomatoes, seafood, spices, dairy, and fruit juices—featuring our renowned <span class="fw-bold">LaJonic</span> and <span class="fw-bold">De Hero</span> brands.</p>
                                     <div class="banner-btn">
                                         <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover
                                             More</a>
@@ -80,6 +78,39 @@
                                     <div class="banner-image-path-sub">
                                         <div class="banner-image back-img"
                                             style="background-image: url('assets/images/products/image5.jpg');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide main-banner-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-content black-text">
+                                    <h1 class="h1-title">
+                                        <span>
+                                            Welcome to Jonic Group
+                                            <img src="assets/images/title-line.svg" width="342" height="13"
+                                                alt="Title line">
+                                        </span>
+
+                                    </h1>
+                                    <p class="text-lg">Committed to freshness, nutrition, and great taste, we serve retailers, wholesalers, and home consumers with top-quality essentials.</p>
+                                    <div class="banner-btn">
+                                        <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-image-path-main">
+                                    <div class="banner-image-path-sub">
+                                        <div class="banner-image back-img"
+                                            style="background-image: url('assets/images/products/image10.jpg');">
                                         </div>
                                     </div>
                                 </div>
@@ -116,9 +147,7 @@
                                 ABOUT US
                             </span>
                             <h2 class="h2-title">What We Do</h2>
-                            <p>Donec hendrerit felis id neque gravida euismod. Fusce non ex justo. Praesent
-                                faucibus, ipsum ut viverra blandit, urna nisl congue odio, quis bibendum ante arcu
-                                at augue.</p>
+                            <p>At Jonic Group, we are committed to delivering top-quality food products that meet the highest industry standards. Our mission is to provide safe, healthy, and delicious food to households and businesses. With years of industry experience, we’ve built strong relationships with expert producers and suppliers, ensuring a reliable supply chain.</p>
                         </div>
                         <div class="engineer-list">
                             <div class="engineer-list-item">
@@ -128,8 +157,7 @@
                                 </span>
                                 <div class="engineer-list-content">
                                     <h4 class="h4-title">Expert Producer</h4>
-                                    <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
-                                        id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
+                                    <p>Jonic Group partners with expert producers to ensure strict quality control. Our <span class="fw-bold">LaJonic</span> and <span class="fw-bold">De Hero</span> brands offer rich flavors, high nutrition, and hygiene across vegetable oil, tomatoes, sardines, and spices.</p>
                                 </div>
                             </div>
                             <div class="engineer-list-item">
@@ -139,8 +167,7 @@
                                 </span>
                                 <div class="engineer-list-content">
                                     <h4 class="h4-title">Certified Producer</h4>
-                                    <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
-                                        id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
+                                    <p>Jonic Group ensures strict compliance with industry regulations for safe, authentic, and high-quality products. Registered with the <span class="fw-bold">CAC</span>, we hold <span class="fw-bold">NAFDAC</span> approval and trademark certifications, guaranteeing trust and safety in every product we offer.</p>
                                 </div>
                             </div>
                         </div>
@@ -178,8 +205,8 @@
         <div class="container">
             <div class="sec-title">
                 <span class="sub-title h5-title m-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-                    <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
-                   Our Products
+                    <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
+                    Our Products
                 </span>
                 <h2 class="h2-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">Wide Range Of Our
                     Products</h2>
@@ -192,17 +219,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image21.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="38" height="38"
                                     alt="All Maintenance Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="All Maintenance">products</a>
+                                    <a href="#" title="All Maintenance">25 liters vegetable oil </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to All Maintenance"></a>
+                                    title="Go to All Maintenance"></a> -->
                             </div>
                         </div>
                     </div>
@@ -212,17 +239,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image22.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="33" height="37"
                                     alt="General Contract Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="General Contract">products</a>
+                                    <a href="#" title="General Contract">400g LaJonic tomato </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to General Contract"></a>
+                                    title="Go to General Contract"></a> -->
                             </div>
                         </div>
                     </div>
@@ -232,17 +259,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image23.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                     alt="Automobiles Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="Automobiles">products</a>
+                                    <a href="#" title="Automobiles">400g De Hero tomato </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to Automobiles"></a>
+                                    title="Go to Automobiles"></a> -->
                             </div>
                         </div>
                     </div>
@@ -252,17 +279,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image24.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                     alt="Mechanical Parts Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="Mechanical Parts">products</a>
+                                    <a href="#" title="Mechanical Parts">210g LaJonic tomato </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to Mechanical Parts"></a>
+                                    title="Go to Mechanical Parts"></a> -->
                             </div>
                         </div>
                     </div>
@@ -272,17 +299,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image25.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="34" height="34"
                                     alt="Petroleum & Gas Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="Petroleum & Gas">products</a>
+                                    <a href="#" title="Petroleum & Gas">210g De Hero tomato </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to Petroleum & Gas"></a>
+                                    title="Go to Petroleum & Gas"></a> -->
                             </div>
                         </div>
                     </div>
@@ -292,17 +319,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image26.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="33" height="33"
                                     alt="Electric Engineer Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="Electric Engineer">products</a>
+                                    <a href="#" title="Electric Engineer">De Hero Chicken Spice </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to Electric Engineer"></a>
+                                    title="Go to Electric Engineer"></a> -->
                             </div>
                         </div>
                     </div>
@@ -312,17 +339,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image27.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="26" height="39"
                                     alt="smart technology Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="Smart Technology">products</a>
+                                    <a href="#" title="Smart Technology">De Hero Beef Cube </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to Smart Technology"></a>
+                                    title="Go to Smart Technology"></a> -->
                             </div>
                         </div>
                     </div>
@@ -332,17 +359,17 @@
                                 <div class="back-img"
                                     style="background-image: url('assets/images/products/image28.jpg');"></div>
                             </div>
-                            <div class="services-box-icon">
+                            <div class="services-box-icon" style="background-color: black !important;">
                                 <img src="assets/images/jonic-logo.svg" width="32" height="32"
                                     alt="Support 24x7 Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="#" title="24x7 Support">products</a>
+                                    <a href="#" title="24x7 Support">De Hero Chicken Cube </a>
                                 </h4>
-                                <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                                <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                                 <a href="#" class="sec-btn icon-lg"
-                                    title="Go to 24x7 Support"></a>
+                                    title="Go to 24x7 Support"></a> -->
                             </div>
                         </div>
                     </div>
@@ -362,13 +389,14 @@
                             <span class="sub-title">
                                 <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
-                                JOIN NOW
+                                    GET SUPPLYS NOW
                             </span>
-                            <h3 class="h3-title">Work with us as a our distributor or partner</h3>
+                            <h3 class="h3-title" style="font-size: 35px!important;">Want to stock up on premium food products? We’re here for you.
+                            </h3>
                         </div>
                         <!-- <img src="assets/images/join-our-team.png" width="271" height="271"
                             alt="Join our team image"> -->
-                        <a href="#" class="sec-btn" title="Get a Quote">Get a Quote</a>
+                        <a href="#" class="sec-btn" title="Get a Quote">Contact Us</a>
                         <div class="banner-shape">
                             <span class="stripe"></span>
                             <span class="stripe stripe-secondary"></span>
@@ -390,31 +418,30 @@
                             <span class="sub-title">
                                 <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
-                                PROCESS & SKILLS
+                                Quality & Eficiency
                             </span>
                             <h2 class="h2-title">Few Reasons Why You Choose Us</h2>
-                            <p>Vivamus varius vestibulum consectetur. Morbi at odio velit. Suspendisse vehicula
-                                fermentum orci, vitae efficitur sem ultrices id.</p>
+                            <p>High-Quality Products: We prioritize freshness, nutrition, and taste</p>
                         </div>
                         <div class="skills-progress">
                             <div class="skills-progress-box">
                                 <h6 class="h6-title">
-                                    Quality Services
+                                    Quality
                                     <span>
-                                        <span class="skill-count counting" data-count="80">0</span>%</span>
+                                        <span class="skill-count counting" data-count="99">0</span>%</span>
                                 </h6>
                                 <div class="skills-progressbar">
-                                    <div class="skills-progressbar-thumb" style="width: 0%;" data-width="80%"></div>
+                                    <div class="skills-progressbar-thumb" style="width: 0%;" data-width="99%"></div>
                                 </div>
                             </div>
                             <div class="skills-progress-box">
                                 <h6 class="h6-title">
-                                    Dedicated Team
+                                    Efficient
                                     <span>
-                                        <span class="skill-count counting" data-count="90">0</span>%</span>
+                                        <span class="skill-count counting" data-count="99">0</span>%</span>
                                 </h6>
                                 <div class="skills-progressbar">
-                                    <div class="skills-progressbar-thumb" style="width: 0%;" data-width="90%"></div>
+                                    <div class="skills-progressbar-thumb" style="width: 0%;" data-width="99%"></div>
                                 </div>
                             </div>
                         </div>
@@ -422,7 +449,7 @@
                             <div class="skills-count projects-done">
                                 <div class="counting-wp">
                                     <div class="h3-title">
-                                        <strong class="counting" data-count="20">0</strong>
+                                        <strong class="counting" data-count="100">0</strong>
                                         <span>+</span>
                                     </div>
                                     <span>Products</span>
@@ -431,10 +458,10 @@
                             <div class="skills-count worker-team">
                                 <div class="counting-wp">
                                     <div class="h3-title">
-                                        <strong class="counting" data-count="30">0</strong>
+                                        <strong class="counting" data-count="200">0</strong>
                                         <span>+</span>
                                     </div>
-                                    <span>Team</span>
+                                    <span>Staff</span>
                                 </div>
                             </div>
                             <div class="skills-count satisfied-clients">
@@ -443,7 +470,7 @@
                                         <strong class="counting" data-count="3358">0</strong>
                                         <span>+</span>
                                     </div>
-                                    <span>Satisfied Clients</span>
+                                    <span>Satisfied Customers</span>
                                 </div>
                             </div>
                         </div>
@@ -456,9 +483,8 @@
                                 <p class="h4-title">1</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Get The our Quote</h4>
-                                <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
-                                    pulvinar consectetur.</p>
+                                <h4 class="h4-title">Contact Us</h4>
+                                <p>Reach out to us via phone, email, or our website to inquire about our premium food products and services. Our team is ready to assist you with your needs.</p>
                             </div>
                         </div>
                         <div class="process-item">
@@ -466,9 +492,8 @@
                                 <p class="h4-title">2</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Recieve our quote</h4>
-                                <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
-                                    pulvinar consectetur.</p>
+                                <h4 class="h4-title">Request Our Products</h4>
+                                <p>Browse our wide range of high-quality food essentials and place your order. Whether you're a retailer or a wholesaler, we ensure a seamless ordering process.</p>
                             </div>
                         </div>
                         <div class="process-item">
@@ -476,9 +501,8 @@
                                 <p class="h4-title">3</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Distribute Our products</h4>
-                                <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
-                                    pulvinar consectetur.</p>
+                                <h4 class="h4-title">Get Your Product Supplied</h4>
+                                <p>Enjoy fast and reliable delivery of your selected products. We guarantee quality, freshness, and efficiency in every order we fulfill.</p>
                             </div>
                         </div>
                     </div>
@@ -495,11 +519,11 @@
                     <div class="our-work-content-wp">
                         <div class="sec-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 Products
                             </span>
-                            <h2 class="h2-title m-0">Explore Our Finest Products</h2>
+                            <h3 class="h3-title m-0">Choose between La Jonic and De Hero Products</h3>
                         </div>
                         <div class="more-work">
                             <a href="#" class="sec-btn wow fadeInUp" data-wow-duration=".8s"
@@ -516,31 +540,13 @@
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
                                                         <a href="#"
-                                                            title="our products">our products</a>
+                                                            title="our products">De Hero products</a>
                                                     </h4>
-                                                    <span class="work-category">product category</span>
+                                                    <!-- <span class="work-category">product category</span> -->
                                                 </div>
-                                                <a href="#"
+                                                <!-- <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="our products"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="our-work-box">
-                                            <div class="back-img"
-                                                style="background-image: url('assets/images/products/image17.jpg');"></div>
-                                            <div class="our-work-content">
-                                                <div class="our-work-name">
-                                                    <h4 class="h4-title">
-                                                        <a href="#"
-                                                            title="our products">our products</a>
-                                                    </h4>
-                                                    <span class="work-category">product category</span>
-                                                </div>
-                                                <a href="#"
-                                                    class="read-more-services sec-btn icon-lg"
-                                                    title="our products"></a>
+                                                    title="our products"></a> -->
                                             </div>
                                         </div>
                                     </div>
@@ -552,17 +558,35 @@
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
                                                         <a href="#"
-                                                            title="our products">our products</a>
+                                                            title="our products">La Jonic products</a>
                                                     </h4>
-                                                    <span class="work-category">product catergory</span>
+                                                    <!-- <span class="work-category">product catergory</span> -->
                                                 </div>
-                                                <a href="#"
+                                                <!-- <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="our products"></a>
+                                                    title="our products"></a> -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
+                                        <div class="our-work-box">
+                                            <div class="back-img"
+                                                style="background-image: url('assets/images/products/image17.jpg');"></div>
+                                            <div class="our-work-content">
+                                                <div class="our-work-name">
+                                                    <h4 class="h4-title">
+                                                        <a href="#"
+                                                            title="our products">De Hero Products</a>
+                                                    </h4>
+                                                    <!-- <span class="work-category">product category</span> -->
+                                                </div>
+                                                <!-- <a href="#"
+                                                    class="read-more-services sec-btn icon-lg"
+                                                    title="our products"></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
                                                 style="background-image: url('assets/images/products/image18.jpg');">
@@ -618,7 +642,7 @@
                                                     title="our products"></a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -633,7 +657,7 @@
         <div class="container">
             <div class="sec-title">
                 <span class="sub-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-                    <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
+                    <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
                     OUR PRICING
                 </span>
                 <h2 class="h2-title m-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">Find The Right
@@ -749,7 +773,7 @@
                     <div class="faq-content wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 FAQ
                             </span>
@@ -867,7 +891,7 @@
                 <div class="col-lg-12">
                     <div class="sec-title">
                         <span class="sub-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-                            <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
+                            <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
                             TESTIMONIAL
                         </span>
                         <h2 class="h2-title m-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">What
@@ -997,7 +1021,7 @@
                         data-wow-delay=".2s">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 TRUSTED BY
                             </span>
@@ -1012,11 +1036,11 @@
     </section> -->
     <!-- END OF GLOBAL CLIENTS SECTION -->
     <!-- START OF BLOG SECTION -->
-    <section class="blog-section">
+    <!-- <section class="blog-section">
         <div class="container">
             <div class="sec-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                 <span class="sub-title">
-                    <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
+                    <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
                     OUR NEWS
                 </span>
                 <h2 class="h2-title m-0">Latest News</h2>
@@ -1085,7 +1109,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF BLOG SECTION -->
 </main>
 @endsection

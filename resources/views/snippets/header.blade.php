@@ -2,7 +2,7 @@
     <div class="header-top">
         <div class="container">
             <div class="top-hader-main-box black-text">
-                <p class="m-0">Welcome To Our Company website</p>
+                <p class="m-0">Welcome To Our Jonic Groups website</p>
                 <ul class="header-social">
                     <li>
                         <a href="mailto:suppport@jonicgroups.com">
@@ -66,7 +66,7 @@
                                             </li> 
                                         </ul>-->
                                     </li>
-                                    <li class="{{ Request::is('career') ? 'active-menu' : '' }}">
+                                    {{--<li class="{{ Request::is('career') ? 'active-menu' : '' }}">
                                         <a href="{{route('career')}}" title="Pages">Career</a>
                                         <!-- <ul class="sub-menu"> 
                                             <li>
@@ -109,7 +109,7 @@
                                                 <a href="#" title="Blog Details">Blog Details</a>
                                             </li>
                                         </ul> -->
-                                    </li>
+                                    </li>--}}
 
                                     <li class=" {{ Request::is('investor') ? 'active-menu' : '' }}">
                                         <a href="{{route('investor')}}" title="Pages">Investor</a>

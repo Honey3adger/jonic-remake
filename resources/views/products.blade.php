@@ -62,9 +62,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="All Maintenance">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to All Maintenance"></a>
+                                title="Go to All Maintenance"></a> -->
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="General Contract">our product</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to General Contract"></a>
+                                title="Go to General Contract"></a> -->
                         </div>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
                             <h4 class="h4-title">
                                 <a href="#" title="Automobiles">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="#" class="sec-btn icon-lg" title="Go to Automobiles"></a>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <a href="#" class="sec-btn icon-lg" title="Go to Automobiles"></a> -->
                         </div>
                     </div>
                 </div>
@@ -121,9 +121,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="Mechanical Parts">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to Mechanical Parts"></a>
+                                title="Go to Mechanical Parts"></a> -->
                         </div>
                     </div>
                 </div>
@@ -141,9 +141,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="Petroleum & Gas">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to Petroleum & Gas"></a>
+                                title="Go to Petroleum & Gas"></a> -->
                         </div>
                     </div>
                 </div>
@@ -161,9 +161,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="Electric Engineer">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to Electric Engineer"></a>
+                                title="Go to Electric Engineer"></a> -->
                         </div>
                     </div>
                 </div>
@@ -181,9 +181,9 @@
                             <h4 class="h4-title">
                                 <a href="#" title="Smart Technology">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
-                                title="Go to Smart Technology"></a>
+                                title="Go to Smart Technology"></a> -->
                         </div>
                     </div>
                 </div>
@@ -201,8 +201,8 @@
                             <h4 class="h4-title">
                                 <a href="#" title="24x7 Support">our products</a>
                             </h4>
-                            <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                            <a href="#" class="sec-btn icon-lg" title="Go to 24x7 Support"></a>
+                            <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
+                            <a href="#" class="sec-btn icon-lg" title="Go to 24x7 Support"></a> -->
                         </div>
                     </div>
                 </div>
@@ -211,14 +211,14 @@
     </section>
     <!-- END OF SERVICES LISTING -->
     <!-- START OF OUR WORK SECTION -->
-     <section class="our-work">
+     <!-- <section class="our-work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="our-work-content-wp">
                         <div class="sec-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 Products
                             </span>
@@ -349,14 +349,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF OUR WORK SECTION -->
     <!-- START OF QUALITY SECTION -->
     <section class="best-quality">
         <div class="container">
             <div class="sec-title text-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                 <span class="sub-title">
-                    <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
+                    <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
                     WHAT WE PROVIDE
                 </span>
                 <h2 class="h2-title">We Provide Best Quality</h2>
@@ -370,10 +370,8 @@
                                     alt="All Maintenance Icon">
                             </span>
                             <div class="quality-content">
-                                <h4 class="h4-title">All Maintenance</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi ut sem
-                                    maximus suscipit. Donec malesuada ultricies eleifend. Duis hendrerit augue sit
-                                    amet quam mollis.</p>
+                                <h4 class="h4-title">High-Quality Products</h4>
+                                <p>We prioritize freshness, nutrition, and taste.</p>
                             </div>
                         </div>
                     </div>
@@ -384,10 +382,9 @@
                                     alt="General Contract Icon">
                             </span>
                             <div class="quality-content">
-                                <h4 class="h4-title">General Contract</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi ut sem
-                                    maximus suscipit. Donec malesuada ultricies eleifend. Duis hendrerit augue sit
-                                    amet quam mollis.</p>
+                                <h4 class="h4-title">Excellent Customer Service</h4>
+                                <p>Our team is always available to assist with orders and inquiries  
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -398,10 +395,8 @@
                                     alt="Automobiles Icon">
                             </span>
                             <div class="quality-content">
-                                <h4 class="h4-title">Automobiles</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi ut sem
-                                    maximus suscipit. Donec malesuada ultricies eleifend. Duis hendrerit augue sit
-                                    amet quam mollis.</p>
+                                <h4 class="h4-title">Efficient Supply Chain</h4>
+                                <p>We ensure fast and reliable deliveries across Nigeria  </p>
                             </div>
                         </div>
                     </div>
@@ -412,10 +407,8 @@
                                     alt="Mechanical Parts Icon">
                             </span>
                             <div class="quality-content">
-                                <h4 class="h4-title">Mechanical Parts</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi ut sem
-                                    maximus suscipit. Donec malesuada ultricies eleifend. Duis hendrerit augue sit
-                                    amet quam mollis.</p>
+                                <h4 class="h4-title">Competitive Prices</h4>
+                                <p>We offer the best market rates for retailers and wholesalers</p>
                             </div>
                         </div>
                     </div>
@@ -425,7 +418,7 @@
     </section>
     <!-- END OF QUALITY SECTION -->
     <!-- START OF FAQ SECTION -->
-    <section class="faq-section dark-bg">
+    <!-- <section class="faq-section dark-bg">
         <div class="banner-shape">
             <span class="stripe"></span>
             <span class="stripe stripe-secondary"></span>
@@ -436,7 +429,7 @@
                     <div class="faq-content wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 FAQ
                             </span>
@@ -544,17 +537,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF FAQ SECTION -->
     <!-- START OF TESTIMONIALS SECTION -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
         <img src="assets/images/globe.svg" class="bg-glob" width="687" height="744" alt="Globe Icon">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sec-title">
                         <span class="sub-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-                            <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
+                            <img src="assets/images/certified-engineer.svg" width="18" height="18" alt="Setting Icon">
                             TESTIMONIAL
                         </span>
                         <h2 class="h2-title m-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">What
@@ -657,7 +650,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF TESTIMONIALS SECTION -->
 </main>
 @endsection
