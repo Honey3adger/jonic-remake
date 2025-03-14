@@ -55,12 +55,12 @@
                             <li class="{{ Request::is('products') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('products')}}" title="Services">Products</a>
                             </li>
-                            <li class="{{ Request::is('career') ? 'active-footer-menu' : '' }}">
+                            <!-- <li class="{{ Request::is('career') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('career')}}" title="Portfolio">Career</a>
-                            </li>
-                            <li class="{{ Request::is('news') ? 'active-footer-menu' : '' }}">
+                            </li> -->
+                            <!-- <li class="{{ Request::is('news') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('news')}}" title="Blog">News</a>
-                            </li>
+                            </li> -->
                             <li class="{{ Request::is('investor') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('investor')}}" title="Blog">Investor</a>
                             </li>
