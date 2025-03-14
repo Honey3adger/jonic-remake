@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('title', 'Home Page')
@@ -8,7 +7,7 @@
 @section('content')
 <main class="site-main">
     <!-- START OF HERO SECTION -->
-    <section class="main-banner dark-bg">
+    <section class="main-banner">
         <div class="banner-stripes">
             <span></span>
             <span></span>
@@ -26,19 +25,19 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="banner-content white-text">
+                                <div class="banner-content black-text">
                                     <h1 class="h1-title">
-                                        Best Solution Grow
                                         <span>
-                                            Industry
+                                            Jonic
                                             <img src="assets/images/title-line.svg" width="342" height="13"
                                                 alt="Title line">
                                         </span>
+                                        groups
                                     </h1>
-                                    <p class="text-lg">Maecenas ullamcorper felis at lacus feugiat, vel viverra nisl
+                                    <p class="text-lg banner-p">Maecenas ullamcorper felis at lacus feugiat, vel viverra nisl
                                         molestie phasellus iaculis nulla est.</p>
                                     <div class="banner-btn">
-                                        <a href="about-us.html" class="sec-btn" title="Discover More">Discover
+                                        <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover
                                             More</a>
                                     </div>
                                 </div>
@@ -47,7 +46,7 @@
                                 <div class="banner-image-path-main">
                                     <div class="banner-image-path-sub">
                                         <div class="banner-image back-img"
-                                            style="background-image: url('assets/images/banner-image.jpg');">
+                                            style="background-image: url('assets/images/products/image1.jpg');">
                                         </div>
                                     </div>
                                 </div>
@@ -59,19 +58,19 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="banner-content white-text">
+                                <div class="banner-content black-text">
                                     <h1 class="h1-title">
-                                        Best Solution Grow
                                         <span>
-                                            Industry
+                                            Jonic
                                             <img src="assets/images/title-line.svg" width="342" height="13"
                                                 alt="Title line">
                                         </span>
+                                        groups
                                     </h1>
                                     <p class="text-lg">Maecenas ullamcorper felis at lacus feugiat, vel viverra nisl
                                         molestie phasellus iaculis nulla est.</p>
                                     <div class="banner-btn">
-                                        <a href="about-us.html" class="sec-btn" title="Discover More">Discover
+                                        <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover
                                             More</a>
                                     </div>
                                 </div>
@@ -80,7 +79,7 @@
                                 <div class="banner-image-path-main">
                                     <div class="banner-image-path-sub">
                                         <div class="banner-image back-img"
-                                            style="background-image: url('assets/images/banner-image.jpg');">
+                                            style="background-image: url('assets/images/products/image5.jpg');">
                                         </div>
                                     </div>
                                 </div>
@@ -99,24 +98,24 @@
                 <div class="col-lg-6">
                     <div class="about-images wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="about-top-image back-img"
-                            style="background-image: url('assets/images/about-us-1.jpg');">
+                            style="background-image: url('assets/images/products/image7.jpg');">
                             <span class="logo-icon">
-                                <img src="assets/images/logo-icon.svg" width="48" height="48" alt="Logo Icon">
+                                <img src="assets/images/jonic-logo.svg" width="48" height="48" alt="Logo Icon">
                             </span>
                         </div>
                         <div class="about-bottom-image back-img"
-                            style="background-image: url('assets/images/about-us-2.jpg');"></div>
+                            style="background-image: url('assets/images/products/image17.jpg');"></div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-us-content wow fadeInRight" data-wow-duration=".8s" data-wow-delay=".2s">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 ABOUT US
                             </span>
-                            <h2 class="h2-title">We Renovate New Innovation</h2>
+                            <h2 class="h2-title">What We Do</h2>
                             <p>Donec hendrerit felis id neque gravida euismod. Fusce non ex justo. Praesent
                                 faucibus, ipsum ut viverra blandit, urna nisl congue odio, quis bibendum ante arcu
                                 at augue.</p>
@@ -124,11 +123,11 @@
                         <div class="engineer-list">
                             <div class="engineer-list-item">
                                 <span class="engineer-list-icon">
-                                    <img src="assets/images/expert-engineer.svg" width="35" height="43"
+                                    <img src="assets/images/certified-engineer.svg" width="35" height="43"
                                         alt="Expert Engineer Logo">
                                 </span>
                                 <div class="engineer-list-content">
-                                    <h4 class="h4-title">Expert Engineer</h4>
+                                    <h4 class="h4-title">Expert Producer</h4>
                                     <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
                                         id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
                                 </div>
@@ -139,18 +138,18 @@
                                         alt="Certified Engineer Logo">
                                 </span>
                                 <div class="engineer-list-content">
-                                    <h4 class="h4-title">Certified Engineer</h4>
+                                    <h4 class="h4-title">Certified Producer</h4>
                                     <p>Cras sit amet aliquet sem, sed eleifend ipsum. Maecenas id hendrerit tortor,
                                         id fringilla urna. Sed vitae vehicula nulla, nec posuere turpis.</p>
                                 </div>
                             </div>
                         </div>
-                        <a href="about-us.html" class="sec-btn" title="Discover More">Discover More</a>
+                        <a href="{{route('about-us')}}" class="sec-btn" title="Discover More">Discover More</a>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="company-timeline wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
-                        <span class="timeline-text">1995</span>
+                        <span class="timeline-text">Since</span>
                         <div class="company-experiance">
                             <img src="assets/images/plus-icon.svg" width="20" height="20" alt="Plus Icon">
                             <div class="company-experiance-content">
@@ -167,7 +166,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <span class="timeline-text">Since</span>
+                        <span class="timeline-text">1995</span>
                     </div>
                 </div>
             </div>
@@ -180,10 +179,10 @@
             <div class="sec-title">
                 <span class="sub-title h5-title m-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                     <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
-                    WHAT WE PROVIDE
+                   Our Products
                 </span>
                 <h2 class="h2-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">Wide Range Of Our
-                    Services</h2>
+                    Products</h2>
             </div>
             <div class="services-slider swiper wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                 <div class="swiper-wrapper">
@@ -191,18 +190,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/all-maintainance.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image21.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/all-maintenance-icon.svg" width="38" height="38"
+                                <img src="assets/images/jonic-logo.svg" width="38" height="38"
                                     alt="All Maintenance Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="All Maintenance">All Maintenance</a>
+                                    <a href="#" title="All Maintenance">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to All Maintenance"></a>
                             </div>
                         </div>
@@ -211,18 +210,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/general-contract.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image22.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/general-contract-icon.svg" width="33" height="37"
+                                <img src="assets/images/jonic-logo.svg" width="33" height="37"
                                     alt="General Contract Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="General Contract">General Contract</a>
+                                    <a href="#" title="General Contract">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to General Contract"></a>
                             </div>
                         </div>
@@ -231,18 +230,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/automobiles.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image23.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/automobiles-icon.svg" width="35" height="35"
+                                <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                     alt="Automobiles Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="Automobiles">Automobiles</a>
+                                    <a href="#" title="Automobiles">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to Automobiles"></a>
                             </div>
                         </div>
@@ -251,18 +250,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/mechanical-parts.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image24.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/mechanical-parts-icon.svg" width="35" height="35"
+                                <img src="assets/images/jonic-logo.svg" width="35" height="35"
                                     alt="Mechanical Parts Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="Mechanical Parts">Mechanical Parts</a>
+                                    <a href="#" title="Mechanical Parts">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to Mechanical Parts"></a>
                             </div>
                         </div>
@@ -271,18 +270,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/petroleum-gas.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image25.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/petroleum-gas-icon.svg" width="34" height="34"
+                                <img src="assets/images/jonic-logo.svg" width="34" height="34"
                                     alt="Petroleum & Gas Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="Petroleum & Gas">Petroleum & Gas</a>
+                                    <a href="#" title="Petroleum & Gas">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to Petroleum & Gas"></a>
                             </div>
                         </div>
@@ -291,18 +290,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/electric-engineer.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image26.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/electric-engineer-icon.svg" width="33" height="33"
+                                <img src="assets/images/jonic-logo.svg" width="33" height="33"
                                     alt="Electric Engineer Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="Electric Engineer">Electric Engineer</a>
+                                    <a href="#" title="Electric Engineer">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to Electric Engineer"></a>
                             </div>
                         </div>
@@ -311,18 +310,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/smart-technology.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image27.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/smart-technology.svg" width="26" height="39"
+                                <img src="assets/images/jonic-logo.svg" width="26" height="39"
                                     alt="smart technology Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="Smart Technology">Smart Technology</a>
+                                    <a href="#" title="Smart Technology">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to Smart Technology"></a>
                             </div>
                         </div>
@@ -331,18 +330,18 @@
                         <div class="services-box">
                             <div class="services-image">
                                 <div class="back-img"
-                                    style="background-image: url('assets/images/support-24x7.jpg');"></div>
+                                    style="background-image: url('assets/images/products/image28.jpg');"></div>
                             </div>
                             <div class="services-box-icon">
-                                <img src="assets/images/support-24x7-icon.svg" width="32" height="32"
+                                <img src="assets/images/jonic-logo.svg" width="32" height="32"
                                     alt="Support 24x7 Icon">
                             </div>
                             <div class="services-box-content">
                                 <h4 class="h4-title">
-                                    <a href="service-details.html" title="24x7 Support">24x7 Support</a>
+                                    <a href="#" title="24x7 Support">products</a>
                                 </h4>
                                 <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
-                                <a href="service-details.html" class="sec-btn icon-lg"
+                                <a href="#" class="sec-btn icon-lg"
                                     title="Go to 24x7 Support"></a>
                             </div>
                         </div>
@@ -361,15 +360,15 @@
                     <div class="join-us-content dark-bg">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 JOIN NOW
                             </span>
-                            <h3 class="h3-title">Join The Future Of Industry Now</h3>
+                            <h3 class="h3-title">Work with us as a our distributor or partner</h3>
                         </div>
-                        <img src="assets/images/join-our-team.png" width="271" height="271"
-                            alt="Join our team image">
-                        <a href="contact-us.html" class="sec-btn" title="Get a Quote">Get a Quote</a>
+                        <!-- <img src="assets/images/join-our-team.png" width="271" height="271"
+                            alt="Join our team image"> -->
+                        <a href="#" class="sec-btn" title="Get a Quote">Get a Quote</a>
                         <div class="banner-shape">
                             <span class="stripe"></span>
                             <span class="stripe stripe-secondary"></span>
@@ -389,7 +388,7 @@
                         data-wow-delay=".2s">
                         <div class="sec-title">
                             <span class="sub-title">
-                                <img src="assets/images/setting-icon.svg" width="18" height="18"
+                                <img src="assets/images/certified-engineer.svg" width="18" height="18"
                                     alt="Setting Icon">
                                 PROCESS & SKILLS
                             </span>
@@ -423,25 +422,25 @@
                             <div class="skills-count projects-done">
                                 <div class="counting-wp">
                                     <div class="h3-title">
-                                        <strong class="counting" data-count="897">0</strong>
+                                        <strong class="counting" data-count="20">0</strong>
                                         <span>+</span>
                                     </div>
-                                    <span>Projects Done</span>
+                                    <span>Products</span>
                                 </div>
                             </div>
                             <div class="skills-count worker-team">
                                 <div class="counting-wp">
                                     <div class="h3-title">
-                                        <strong class="counting" data-count="270">0</strong>
+                                        <strong class="counting" data-count="30">0</strong>
                                         <span>+</span>
                                     </div>
-                                    <span>Worker Team</span>
+                                    <span>Team</span>
                                 </div>
                             </div>
                             <div class="skills-count satisfied-clients">
                                 <div class="counting-wp">
                                     <div class="h3-title">
-                                        <strong class="counting" data-count="658">0</strong>
+                                        <strong class="counting" data-count="3358">0</strong>
                                         <span>+</span>
                                     </div>
                                     <span>Satisfied Clients</span>
@@ -457,7 +456,7 @@
                                 <p class="h4-title">1</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Get The Raw Material</h4>
+                                <h4 class="h4-title">Get The our Quote</h4>
                                 <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
                                     pulvinar consectetur.</p>
                             </div>
@@ -467,7 +466,7 @@
                                 <p class="h4-title">2</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Design A Plan</h4>
+                                <h4 class="h4-title">Recieve our quote</h4>
                                 <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
                                     pulvinar consectetur.</p>
                             </div>
@@ -477,7 +476,7 @@
                                 <p class="h4-title">3</p>
                             </div>
                             <div class="process-content">
-                                <h4 class="h4-title">Manufacturer Product</h4>
+                                <h4 class="h4-title">Distribute Our products</h4>
                                 <p>Suspendisse elementum magna ac arcu congue condimentum. Mauris feugiat magna sed
                                     pulvinar consectetur.</p>
                             </div>
@@ -498,12 +497,12 @@
                             <span class="sub-title">
                                 <img src="assets/images/setting-icon.svg" width="18" height="18"
                                     alt="Setting Icon">
-                                PORTFOLIO
+                                Products
                             </span>
-                            <h2 class="h2-title m-0">Explore Our Work</h2>
+                            <h2 class="h2-title m-0">Explore Our Finest Products</h2>
                         </div>
                         <div class="more-work">
-                            <a href="portfolio.html" class="sec-btn wow fadeInUp" data-wow-duration=".8s"
+                            <a href="#" class="sec-btn wow fadeInUp" data-wow-duration=".8s"
                                 data-wow-delay=".2s" title="Discover More">Discover More</a>
                         </div>
                         <div class="our-work-slider-wp wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
@@ -512,111 +511,111 @@
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-1.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image7.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-2.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image17.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/work-3.jpg');"></div>
+                                                style="background-image: url('assets/images/products/image8.jpg');"></div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product catergory</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-1-min.jpg');">
+                                                style="background-image: url('assets/images/products/image18.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">products category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-2-min.jpg');">
+                                                style="background-image: url('assets/images/products/image9.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="our-work-box">
                                             <div class="back-img"
-                                                style="background-image: url('assets/images/explore-work-3-min.jpg');">
+                                                style="background-image: url('assets/images/products/image29.jpg');">
                                             </div>
                                             <div class="our-work-content">
                                                 <div class="our-work-name">
                                                     <h4 class="h4-title">
-                                                        <a href="portfolio.html"
-                                                            title="Electronic Material">Electronic Material</a>
+                                                        <a href="#"
+                                                            title="our products">our products</a>
                                                     </h4>
-                                                    <span class="work-category">Industry Work</span>
+                                                    <span class="work-category">product category</span>
                                                 </div>
-                                                <a href="portfolio.html"
+                                                <a href="#"
                                                     class="read-more-services sec-btn icon-lg"
-                                                    title="Electronic Material"></a>
+                                                    title="our products"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -630,7 +629,7 @@
     </section>
     <!-- END OF OUR WORK SECTION -->
     <!-- START OF PRICING SECTION -->
-    <section class="pricing">
+    <!-- <section class="pricing">
         <div class="container">
             <div class="sec-title">
                 <span class="sub-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
@@ -736,10 +735,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF OUR WORK SECTION -->
     <!-- START OF FAQ SECTION -->
-    <section class="faq-section dark-bg">
+    <!-- <section class="faq-section dark-bg">
         <div class="banner-shape">
             <span class="stripe"></span>
             <span class="stripe stripe-secondary"></span>
@@ -858,10 +857,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF FAQ SECTION -->
     <!-- START OF TESTIMONIALS SECTION -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
         <img src="assets/images/globe.svg" class="bg-glob" width="687" height="744" alt="Globe Icon">
         <div class="container">
             <div class="row">
@@ -971,10 +970,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF TESTIMONIALS SECTION -->
     <!-- START OF GLOBAL CLIENTS SECTION -->
-    <section class="global-clients light-bg">
+    <!-- <section class="global-clients light-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 order-lg-1 order-2 align-self-center">
@@ -1010,7 +1009,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END OF GLOBAL CLIENTS SECTION -->
     <!-- START OF BLOG SECTION -->
     <section class="blog-section">
@@ -1018,28 +1017,27 @@
             <div class="sec-title wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                 <span class="sub-title">
                     <img src="assets/images/setting-icon.svg" width="18" height="18" alt="Setting Icon">
-                    OUR BLOG
+                    OUR NEWS
                 </span>
-                <h2 class="h2-title m-0">Latest Blog & News</h2>
+                <h2 class="h2-title m-0">Latest News</h2>
             </div>
             <div class="blog-box-wp">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/new-machine-image.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image12.jpg');"
                                     title="New machine will efficient big factory"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html" title="New machine will efficient big factory">New
-                                        machine will efficient big factory</a>
+                                    <a href="#" title="New machine will efficient big factory">news</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="New machine will efficient big factory"></a>
                             </div>
                         </div>
@@ -1047,20 +1045,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/how-to-build.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image23.jpg');"
                                     title="How to build for best new machinery industry"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html"
-                                        title="How to build for best new machinery industry">How to build for best
-                                        new machinery industry</a>
+                                    <a href="#"
+                                        title="How to build for best new machinery industry">news post</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="How to build for best new machinery industry"></a>
                             </div>
                         </div>
@@ -1068,20 +1065,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                             <div class="blog-image">
-                                <a href="blog-detail.html" class="back-img"
-                                    style="background-image: url('assets/images/we-are-best.jpg');"
+                                <a href="#" class="back-img"
+                                    style="background-image: url('assets/images/products/image15.jpg');"
                                     title="We are best any industrial & business solution"></a>
                                 <p class="blog-published">7 June, 2024</p>
                             </div>
                             <div class="blog-box-content">
                                 <h4 class="h4-title">
-                                    <a href="blog-detail.html"
-                                        title="We are best any industrial & business solution">We are best any
-                                        industrial & business solution</a>
+                                    <a href="#"
+                                        title="We are best any industrial & business solution">news post</a>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi sem maximus
                                     suscipit.</p>
-                                <a href="blog-detail.html" class="sec-btn"
+                                <a href="#" class="sec-btn"
                                     title="We are best any industrial & business solution"></a>
                             </div>
                         </div>

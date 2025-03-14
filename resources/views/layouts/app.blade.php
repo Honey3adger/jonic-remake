@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from html.geekcodelab.com/induris/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2025 15:14:17 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Induris, Factory Template, Industrial Template">
@@ -10,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>@yield('title', 'Default Title')</title>
     <!-- FavIcon Link -->
-    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" type="image/png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -33,7 +31,7 @@
     <!-- START OF LOADER -->
     <div class="loader-box">
         <div class="loader">
-            <img src="assets/images/logo-fill.svg" width="165" height="134" alt="Loader Main">
+            <!-- <img src="assets/images/jonic-logo.svg" width="165" height="34" alt="Loader Main"> -->
         </div>
     </div>
     <!-- LOADER END -->
@@ -45,7 +43,7 @@
     @yield('content')
     <!-- END OF MAIN -->
     <!-- START OF FOOTER -->
-    @include('snippets.header')
+    @include('snippets.footer')
     <!-- END OF FOOTER -->
     <!-- SEARCH MODAL START -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
@@ -103,7 +101,4 @@
     <!-- Custom JS Link -->
     <script src="assets/js/custom.js"></script>
 </body>
-
-
-<!-- Mirrored from html.geekcodelab.com/induris/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2025 15:14:45 GMT -->
 </html>
