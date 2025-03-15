@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,3 +41,15 @@ Route::get('/news', function () {
 Route::get('/products', function () {
     return view('products');
 })->name('products');
+
+Auth::routes();
+
+
+
+Route::view('super-admin/login', 'auth.login')->name('sign-up');
+    
+
+
+
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
