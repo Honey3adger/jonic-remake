@@ -109,10 +109,10 @@
                                                 <a href="#" title="Blog Details">Blog Details</a>
                                             </li>
                                         </ul> -->
-                                    </li>--}}
+                                    </li>
 
                                     <li class=" {{ Request::is('investor') ? 'active-menu' : '' }}">
-                                        <a href="{{route('investor')}}" title="Pages">Investor</a>
+                                        <a href="{{ route('login') }}" title="Pages">Investor</a>
                                         <!-- <ul class="sub-menu"> 
                                             <li>
                                                 <a href="#" title="Portfolio">Portfolio</a>
@@ -140,7 +140,7 @@
                                                 <a href="#" title="Error 404">Error 404</a>
                                             </li>
                                         </ul> -->
-                                    </li>
+                                    </li>--}}
                                     <!-- <li>
                                         <a href="#" title="Contact Us">Contact Us</a>
                                     </li> -->
