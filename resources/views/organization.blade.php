@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Share Holder - Jonic')
+@section('title', 'Our Organization - Jonic')
 
 @section('class', 'portfolio_details_page')
 
@@ -26,7 +26,7 @@
                 <div class="col-lg-12">
                     <div class="inner-banner-content-wp white-text text-center">
                         <div class="inner-banner-content wow fadeInUp" data-wow-duration=".8s">
-                            <h2 class="h1-title">Shareholders' corner</h2>
+                            <h2 class="h1-title">Our Organization</h2>
                         </div>
                         <div class="inner-banner-breadcrumb wow fadeInUp" data-wow-duration=".8s"
                             data-wow-delay=".2s">
@@ -76,9 +76,9 @@
                                 </ul>
                             </div>
                         </div> -->
-                        <!-- <p>The Company is committed to promoting shareholders’ rights and takes necessary steps in ensuring same. The Board and the Management do significantly benefit from the contributions and advice of the shareholder members of the Audit Committee and contributions of shareholders at Annual General Meetings.</p> -->
+                        <!-- <p>The Company is committed to promoting Organization’ rights and takes necessary steps in ensuring same. The Board and the Management do significantly benefit from the contributions and advice of the shareholder members of the Audit Committee and contributions of Organization at Annual General Meetings.</p> -->
                         <div class="portfolio-description dark-bg">
-                        <h2 class="h2-title text-white">Shareholders' corner</h2>
+                        <h2 class="h2-title text-white">Our Organization</h2>
                            <!--  <ul>
                                 <li>
                                     <span class="icon">
@@ -133,12 +133,12 @@
                         <!-- <div class="portfolio-feature-image back-img"
                             style="background-image: url('assets/images/products/image14.jpg');">
                         </div> -->
-                        <p>The Company is committed to promoting shareholders’ rights and takes necessary steps in ensuring same. The Board and the Management do significantly benefit from the contributions and advice of the shareholder members of the Audit Committee and contributions of shareholders at Annual General Meetings.</p>
+                        <p>The Company is committed to promoting Organization’ rights and takes necessary steps in ensuring same. The Board and the Management do significantly benefit from the contributions and advice of the shareholder members of the Audit Committee and contributions of Organization at Annual General Meetings.</p>
                         <h5 class="h5-title">Shareholder Rights</h5>
-                        <p>All our shareholders have the right to receive notice of general meetings, attend general meetings either in person or by proxy, vote at general meetings, receive annual reports, receive dividends if declared and the right to transfer their shares.</p>
+                        <p>All our Organization have the right to receive notice of general meetings, attend general meetings either in person or by proxy, vote at general meetings, receive annual reports, receive dividends if declared and the right to transfer their shares.</p>
 
                         <h5 class="h5-title">Our Registrars</h5>
-                        <p>Shareholders should endeavor to communicate their inquiries, notice of any change/alteration to the shares or personal information recorded against the shares, and any other such important information to our registrars: First Registrars and Investor Services Limited at Plot 2, Abebe Village Road, Iganmu, Lagos. Shareholders can also download the information update forms below.</p>
+                        <p>Organization should endeavor to communicate their inquiries, notice of any change/alteration to the shares or personal information recorded against the shares, and any other such important information to our registrars: First Registrars and Investor Services Limited at Plot 2, Abebe Village Road, Iganmu, Lagos. Organization can also download the information update forms below.</p>
                         <div class="portfolio-points">
                             <ul>
                                 <li>
@@ -146,7 +146,7 @@
                                         <img src="assets/images/industry-service.svg" width="35" height="35"
                                             alt="Industry Service Icon">
                                     </span>
-                                    <h4 class="h4-title m-0">First registrars shareholders’ update form</h4>
+                                    <h4 class="h4-title m-0">First registrars Organization’ update form</h4>
                                 </li>
                                 <li>
                                     <span class="icon">

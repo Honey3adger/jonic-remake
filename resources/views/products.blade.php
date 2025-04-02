@@ -60,7 +60,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="All Maintenance">our products</a>
+                                <a href="{{route('product-details')}}" title="All Maintenance">De hero sachet milk</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -80,7 +80,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="General Contract">our product</a>
+                                <a href="{{route('product-details')}}" title="General Contract">La Jonic sardine</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -100,7 +100,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="Automobiles">our products</a>
+                                <a href="{{route('product-details')}}" title="Automobiles">La Jonic vegetable oil (25 liters)</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg" title="Go to Automobiles"></a> -->
@@ -119,7 +119,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="Mechanical Parts">our products</a>
+                                <a href="{{route('product-details')}}" title="Mechanical Parts">De Hero pure and fresh ( mango)</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -139,7 +139,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="Petroleum & Gas">our products</a>
+                                <a href="{{route('product-details')}}" title="Petroleum & Gas">De Hero Vegetable oil (25 liters)</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -159,7 +159,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="Electric Engineer">our products</a>
+                                <a href="{{route('product-details')}}" title="Electric Engineer">De hero beef cube</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -179,7 +179,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="Smart Technology">our products</a>
+                                <a href="{{route('product-details')}}" title="Smart Technology">De Hero pure and fresh (Orange)</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg"
@@ -199,7 +199,7 @@
                         </div>
                         <div class="services-box-content">
                             <h4 class="h4-title">
-                                <a href="#" title="24x7 Support">our products</a>
+                                <a href="{{route('product-details')}}" title="24x7 Support">La Jonic vegetable oil (10liters)</a>
                             </h4>
                             <!-- <p>Vivamus vari fermentum vestibulum consectetur morbi at odio.</p>
                             <a href="#" class="sec-btn icon-lg" title="Go to 24x7 Support"></a> -->
