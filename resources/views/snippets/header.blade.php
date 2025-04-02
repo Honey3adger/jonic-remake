@@ -13,7 +13,7 @@
                     <li>
                         <a href="tel:+919879874987" title="Call on +91 987 9874 987">
                             <img src="assets/images/phone-icon.svg" width="18" height="18" alt="Phone Icon">
-                            <span>+234 987 9874 987</span>
+                            <span>+234 703 718 4403</span>
                         </a>
                     </li>
                 </ul>
@@ -26,7 +26,7 @@
                 <div class="col-lg-2">
                     <div class="site-branding">
                         <a href="{{route('index')}}" title="Induris">
-                            <img src="assets/images/jonic-logo.svg" width="32px"  alt="Induris Logo">
+                            <img src="assets/images/jonic-logo.svg" width="32px" alt="Induris Logo">
                         </a>
                     </div>
                 </div>
@@ -67,8 +67,8 @@
                                         </ul>-->
                                     </li>
                                     {{--<li class="{{ Request::is('career') ? 'active-menu' : '' }}">
-                                        <a href="{{route('career')}}" title="Pages">Career</a>
-                                        <!-- <ul class="sub-menu"> 
+                                    <a href="{{route('career')}}" title="Pages">Career</a>
+                                    <!-- <ul class="sub-menu"> 
                                             <li>
                                                 <a href="#" title="Portfolio">Portfolio</a>
                                             </li>
@@ -109,38 +109,38 @@
                                                 <a href="#" title="Blog Details">Blog Details</a>
                                             </li>
                                         </ul> -->
+                                    </li>--}}
+
+                                    <li class=" {{ isRoute(['de-hero', 'la-jonic'], 'active-menu') }} menu-parent">
+                                        <a href="javascript:void(0)" title="Pages">Our Brand</a>
+                                        <ul class="sub-menu">
+                                            <li class="{{ isRoute(['de-hero'], 'active-sub-menu') }}">
+                                                <a href="{{ route('de-hero') }}" title="Portfolio">De Hero</a>
+                                            </li>
+                                            <li class="{{ isRoute(['la-jonic'], 'active-sub-menu') }}">
+                                                <a href="{{ route('la-jonic') }}" title="Portfolio 2">La Jonic</a>
+                                            </li>
+
+                                        </ul>
                                     </li>
 
-                                    <li class=" {{ Request::is('investor') ? 'active-menu' : '' }}">
-                                        <a href="{{ route('login') }}" title="Pages">Investor</a>
-                                        <!-- <ul class="sub-menu"> 
-                                            <li>
-                                                <a href="#" title="Portfolio">Portfolio</a>
+                                    <li class=" {{ isRoute(['organization', 'investor', 'coprate-governance'], 'active-menu') }} menu-parent">
+                                        <a href="javascript:void(0)" title="Pages">Investors</a>
+                                        <ul class="sub-menu">
+                                            <li class="{{ isRoute(['organization'], 'active-sub-menu') }}">
+                                                <a href="{{ route('organization') }}" title="Portfolio">Our Organization</a>
                                             </li>
-                                            <li>
-                                                <a href="#" title="Portfolio 2">Portfolio 2</a>
+                                            <li class="{{ isRoute(['financials'], 'active-sub-menu') }}">
+                                                <a href="{{ route('financials') }}" title="Portfolio 2">Financial</a>
                                             </li>
-                                            <li>
-                                                <a href="#"
-                                                    title="Portfolio Details">Portfolio Details</a>
+                                            <li class="{{ isRoute(['investor'], 'active-sub-menu') }}">
+                                                <a href="{{ route('investor') }}" title="Our Team">Shareholder's corner</a>
                                             </li>
-                                            <li>
-                                                <a href="#" title="Our Team">Our Team</a>
+                                            <li class="{{ isRoute(['coprate-governance'], 'active-sub-menu') }}">
+                                                <a href="{{ route('coprate-governance') }}" title="Our Team">Coprate Governance</a>
                                             </li>
-                                            <li>
-                                                <a href="#" title="Team Details">Team Details</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" title="FAQ">FAQ</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" title="Pricing">Pricing</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" title="Error 404">Error 404</a>
-                                            </li>
-                                        </ul> -->
-                                    </li>--}}
+                                        </ul>
+                                    </li>
                                     <!-- <li>
                                         <a href="#" title="Contact Us">Contact Us</a>
                                     </li> -->

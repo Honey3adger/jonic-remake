@@ -61,12 +61,27 @@
                             <!-- <li class="{{ Request::is('news') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('news')}}" title="Blog">News</a>
                             </li> -->
-                            <li class="{{ Request::is('investor') ? 'active-footer-menu' : '' }}">
-                                <a href="{{route('investor')}}" title="Blog">Investor</a>
-                            </li>
-                            <li class="{{ Request::is('gallery') ? 'active-footer-menu' : '' }}">
+                            <li class=" {{ isRoute(['organization', 'investor', 'coprate-governance'], 'active-menu') }} menu-parent">
+                                        <a href="javascript:void(0)" title="Pages"><h4>Investors</h4></a>
+                                        <ul class="sub-menu ms-2">
+                                            <li class="{{ isRoute(['organization'], 'active-sub-menu') }}">
+                                                <a href="{{ route('organization') }}" title="Portfolio">Our Organization</a>
+                                            </li>
+                                            <li class="{{ isRoute(['financials'], 'active-sub-menu') }}">
+                                                <a href="{{ route('financials') }}" title="Portfolio 2">Financial</a>
+                                            </li>
+                                            <li class="{{ isRoute(['investor'], 'active-sub-menu') }}">
+                                                <a href="{{ route('investor') }}" title="Our Team">Shareholder's corner</a>
+                                            </li>
+                                            <li class="{{ isRoute(['coprate-governance'], 'active-sub-menu') }}">
+                                                <a href="{{ route('coprate-governance') }}" title="Our Team">Coprate Governance</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    
+                            <!-- <li class="{{ Request::is('gallery') ? 'active-footer-menu' : '' }}">
                                 <a href="{{route('gallery')}}" title="Blog">Gallery</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#" title="Contact Us">Contact Us</a>
                             </li>
@@ -106,8 +121,7 @@
                                         <i class="fas fa-phone-alt"></i>
                                     </span>
                                     <div class="contact-link">
-                                        <a href="tel:+912359874512" title="Call to +91 235 9874 512">+234 235 9874
-                                            512</a>
+                                        <a href="tel:+912359874512" title="Call to +234 703 718 4403">+234 703 718 4403</a>
                                     </div>
                                 </div>
                             </li>
